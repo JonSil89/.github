@@ -6,7 +6,7 @@
 **Quality-Gated Change**  
 **Governed Automation**
 
-
+---
 
 ## What This Is
 
@@ -148,7 +148,5 @@ Risk-aware automation
 Lifecycle-controlled environments  
 
 ---
-
-If you're reviewing this from a leadership perspective:
 
 This organization demonstrates structured governance architecture implemented as code.
