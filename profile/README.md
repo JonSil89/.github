@@ -1,169 +1,154 @@
 ## Hi there 👋
 
-Gatehouse Infrastructure
+# Gatehouse Infrastructure
 
-Policy-driven Infrastructure. Quality-gated Change. Governed Automation.
+**Policy-Driven Infrastructure**  
+**Quality-Gated Change**  
+**Governed Automation**
+
+---
+
+## What This Is
 
 Gatehouse Infrastructure is an orchestration-first platform initiative focused on:
 
-Infrastructure Change Quality Gates
+- Infrastructure Change Quality Gates  
+- AI-assisted ITSM & Compliance automation  
+- Lifecycle-controlled IoT & Edge environments  
+- ISO 27001-aligned governance design  
 
-AI-assisted ITSM & Compliance automation
+This is not a script collection.  
+This is governance implemented as code.
 
-Lifecycle-controlled IoT & Edge environments
+---
 
-ISO 27001-aligned governance design
+## Mission
 
-We build systems where change is controlled, auditable and policy-enforced by design.
+Eliminate uncontrolled infrastructure change by embedding:
 
-🎯 Mission
+- Governance into pipelines  
+- Compliance into automation  
+- Risk evaluation into CI/CD  
+- Lifecycle control into IoT  
 
-To eliminate uncontrolled infrastructure change by embedding:
+Infrastructure should be structured.  
+Change should be auditable.  
+Automation should be policy-aware.
 
-Governance into pipelines
+---
 
-Compliance into automation
+## Architecture Model
 
-Risk evaluation into CI/CD
+The platform is built around three core pillars.
 
-Lifecycle control into IoT
+---
 
-Infrastructure should not rely on tribal knowledge.
-It should rely on structured orchestration.
+### 1. Infrastructure Change Quality Gate
 
-🏗 Architecture Philosophy
+A DevSecOps control layer ensuring:
 
-Gatehouse is built around three core pillars:
+- Policy validation before deployment  
+- Automated risk scoring  
+- Auditable approval logic  
+- Compliance-aware release flow  
 
-1️⃣ Infrastructure Change Quality Gate
+Goal: Enable ISO-aligned change governance without slowing delivery.
 
-A DevSecOps control layer ensuring that:
+---
 
-All infrastructure changes are policy-validated
+### 2. AI-ITSM-Compliance Automation
 
-Risk scoring is automated
+AI-assisted orchestration connecting:
 
-Approval logic is auditable
+- ITSM workflows  
+- Incident & change classification  
+- Risk tagging  
+- Compliance traceability  
 
-Deployment is compliance-aware
+Objective: Decision support within governance boundaries.
 
-This enables ISO-aligned change governance without slowing delivery.
+---
 
-2️⃣ AI-ITSM-Compliance Automation
-
-AI-assisted orchestration that connects:
-
-ITSM workflows
-
-Incident & change classification
-
-Risk tagging
-
-Compliance traceability
-
-The objective is not AI hype.
-The objective is decision support within governance boundaries.
-
-3️⃣ HAaaS – Home Automation as a Service
+### 3. HAaaS – Home Automation as a Service
 
 Lifecycle-managed IoT and edge infrastructure:
 
-Infrastructure-as-Code driven
+- Infrastructure-as-Code driven  
+- Device lifecycle control (DLCM)  
+- Secure configuration baselines  
+- Managed update governance  
 
-Device lifecycle control (DLCM)
+IoT should be treated as regulated infrastructure — not hobby automation.
 
-Secure configuration baselines
+---
 
-Managed update governance
+## Governance Layers
 
-IoT environments should be treated like regulated infrastructure — not hobby projects.
+Each repository contributes to one of these layers:
 
-🔐 Governance Model
+| Layer           | Purpose                                  |
+|----------------|------------------------------------------|
+| Policy         | Control definitions & governance logic   |
+| Gate           | Automated validation & enforcement       |
+| Orchestration  | Workflow coordination                    |
+| Infrastructure | IaC & environment design                 |
+| Lifecycle      | Device & asset state management          |
 
-The platform design aligns with principles from:
+---
 
-ISO 27001 change management
+## Core Repositories
 
-Risk-based control frameworks
-
-Policy-as-Code patterns
-
-Zero-trust architectural thinking
-
-Every repository contributes to one of the following layers:
-
-Layer	Purpose
-Policy	Control definitions & governance logic
-Gate	Automated validation & enforcement
-Orchestration	Workflow coordination
-Infrastructure	IaC & environment design
-Lifecycle	Device & asset state management
-📦 Core Repositories
-
-infrastructure-change-quality-gate
-
-AI-ITSM-Compliance-Auto
-
-HAaaS
-
-governance-templates
-
-iso27001-mapping-examples
+- `infrastructure-change-quality-gate`
+- `AI-ITSM-Compliance-Auto`
+- `HAaaS`
+- `governance-templates`
+- `iso27001-mapping-examples`
 
 Each repository represents a modular capability within a unified orchestration model.
 
-🧠 Design Principles
+---
 
-Governance by design, not by documentation
+## Design Principles
 
-Automation before manual approval chains
+- Governance by design  
+- Automation before manual control chains  
+- Policy-as-Code over documentation PDFs  
+- Observable decision paths  
+- Auditability as default  
 
-Policy-as-Code over static PDFs
+---
 
-Observable decision paths
+## Target Environment
 
-Auditability as a default
+- Enterprise infrastructure  
+- Public sector & regulated environments  
+- Hybrid cloud  
+- Edge & IoT ecosystems  
+- DevSecOps pipelines  
 
-🚀 Target Environment
+---
 
-Enterprise infrastructure
+## Strategic Direction
 
-Public sector & regulated environments
+- Fully orchestrated compliance-aware pipelines  
+- AI-assisted governance decision support  
+- Modular policy engines  
+- Scalable lifecycle-managed IoT platforms  
 
-Hybrid cloud
+Long-term objective:  
+Create a reusable governance-first infrastructure blueprint.
 
-Edge & IoT ecosystems
+---
 
-DevSecOps pipelines
+## Maintainer Focus
 
-📈 Strategic Direction
+Infrastructure orchestration  
+Governance-driven DevSecOps  
+Risk-aware automation  
+Lifecycle-controlled environments  
 
-Gatehouse Infrastructure is evolving toward:
+---
 
-Fully orchestrated compliance-aware pipelines
+If you're reviewing this from a leadership perspective:
 
-AI-assisted governance decision support
-
-Modular policy engines
-
-Scalable lifecycle-managed IoT platforms
-
-The long-term objective is to create a reusable governance-first infrastructure blueprint.
-
-👤 Maintainer
-
-Orchestration-focused infrastructure architect
-Specializing in:
-
-Governance-driven DevSecOps
-
-Infrastructure lifecycle control
-
-Risk-aware automation
-
-Compliance-integrated platform design
-
-If you're reviewing this organization from a leadership perspective:
-
-This is not a collection of scripts.
-This is a structured governance architecture implemented as code.
+This organization demonstrates structured governance architecture implemented as code.
