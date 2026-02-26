@@ -221,6 +221,4 @@ Gatehouse Infrastructure is licensed under the [MIT License](./LICENSE).
 **Gatehouse Infrastructure: Where governance and automation converge.**
 
 *Built for enterprises that demand auditable, policy-driven infrastructure change.*
-
-## License
-[Your license information here]
+*Gatehouse Infrastructure is an evolving governance-first infrastructure platform currently under active development. Core engines are being implemented incrementally.*
