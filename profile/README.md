@@ -1,224 +1,53 @@
-# 🏛️ Gatehouse Infrastructure
+# JonSil89
 
-> **Policy-Driven Infrastructure | Quality-Gated Change | Governed Automation**
+**Selected shared and demo work around infrastructure governance, ITSM automation, managed-service concepts and lifecycle-oriented operations.**
 
-Gatehouse Infrastructure is an **orchestration-first platform** for enterprises and regulated environments that demand **governance-embedded change control**, **auditable automation**, and **compliance-aware infrastructure management**.
+This organization contains proof-of-concepts, experiments and selected shared/demo repositories by Jonne Silvennoinen.
 
----
+It is not presented as a production platform, certification package or commercial managed service. Each repository documents its own implementation status, limitations and evidence.
 
-## 🎯 The Problem We Solve
+## Active public work
 
-Most infrastructure platforms treat governance as an afterthought:
-- ❌ Changes deployed without policy validation
-- ❌ Compliance checks performed post-deployment
-- ❌ IoT devices managed without lifecycle control
-- ❌ Audit trails scattered across multiple systems
-- ❌ Risk evaluation manual and subjective
+### [AI-ITSM Compliance Auto](https://github.com/JonSil89/AI-ITSM-Compliance-Auto)
 
-**Gatehouse makes governance native to infrastructure automation.**
+Proof-of-concept for ITSM documentation, lightweight policy-as-code checks and compliance-evidence automation in CI/CD.
 
----
+The repository is intentionally scoped as a portfolio-grade POC rather than a production GRC or audit platform.
 
-## ✨ What Makes Gatehouse Different
+### [Home Assistant as a Service - HAaaS](https://github.com/JonSil89/Home-Assistant-as-a-Service-HAaaS-)
 
-This is **not** a script collection or a configuration template library.
+Architecture, documentation and local-runtime proof-of-concept for a managed Home Assistant service model.
 
-This is **governance implemented as code** — where every infrastructure change flows through policy-validated gates, compliance is embedded in pipelines, and risk is quantified before deployment.
+The current implementation demonstrates documentation, validation, lifecycle thinking and a runnable local Docker baseline. Production service readiness is not claimed.
 
-**Three core platform capabilities:**
+## Related authored portfolio
 
-### 1. 🚦 Infrastructure Change Quality Gate
-A DevSecOps control layer that validates every change before it reaches production:
-- **Policy validation** — Automated gate enforcement
-- **Risk scoring** — Quantified change impact assessment
-- **Approval workflows** — Auditable authorization chains
-- **Compliance mapping** — ISO 27001/SOC 2 alignment
-- **Zero slowdown** — Sub-second policy evaluation
+The primary authored engineering portfolio is maintained under:
 
-**Use case:** Enable enterprise infrastructure teams to deploy faster *and* safer.
+[Jonnenpijonne](https://github.com/Jonnenpijonne)
 
----
+Current work includes:
 
-### 2. 🤖 AI-ITSM-Compliance Automation
-Intelligent orchestration connecting incident management, change workflows, and compliance requirements:
-- **Intelligent classification** — AI-assisted incident & change categorization
-- **Risk tagging** — Automated compliance impact labeling
-- **Workflow coordination** — ITSM process automation
-- **Decision support** — Evidence-based recommendations within governance boundaries
-- **Traceability** — Complete audit trail of every decision
+- [Infrastructure Change Quality Gate](https://github.com/Jonnenpijonne/infrastructure-change-quality-gate) - controlled infrastructure change, validation and audit evidence
+- [RBAC-Lite](https://github.com/Jonnenpijonne/RBAC-Lite) - lightweight IAM/RBAC and partner-isolation governance example
+- [Operations as a Service Blueprint](https://github.com/Jonnenpijonne/operations-as-a-service-blueprint) - operational ownership, service boundaries, escalation, recovery and evidence
+- [ESP32 IoT Security Governance Lab](https://github.com/Jonnenpijonne/esp32-iot-security-governance-lab) - edge-device security and governance
+- [Local-First WordPress DevSecOps Kit](https://github.com/Jonnenpijonne/local-first-wordpress-devsecops-kit) - reproducible local development with explicit security and data boundaries
 
-**Use case:** Reduce mean-time-to-remediation while maintaining compliance posture.
+## Engineering approach
 
----
+- Evidence over claims
+- Explicit scope and ownership
+- Controlled change with rollback
+- Recoverability and transferable operations
+- Least privilege and clear system boundaries
+- Lightweight systems before unnecessary complexity
+- Automation where it produces measurable operational value
 
-### 3. 🏠 HAaaS – Home Automation as a Service
-Lifecycle-managed IoT and edge infrastructure built on infrastructure-as-code principles:
-- **Device Lifecycle Control (DLCM)** — Secure onboarding, provisioning, and decommissioning
-- **Configuration baselines** — Enforced security standards across all devices
-- **Managed updates** — Orchestrated, rollback-capable firmware governance
-- **State management** — Real-time device health and compliance monitoring
-- **Edge-first design** — Decentralized yet governed
+## Repository status
 
-**Use case:** Treat IoT infrastructure with the same rigor as enterprise systems.
+Archived repositories are retained as historical, learning or reference material.
 
----
+An archived repository should not be interpreted as a current portfolio recommendation or active product.
 
-## 🏗️ Architecture & Governance Layers
-
-```
-┌─────────────────────────────────────────────────────┐
-│         CI/CD Pipeline / Automation Trigger         │
-├─────────────────────────────────────────────────────┤
-│  Policy Layer        – Control definitions & rules   │
-├─────────────────────────────────────────────────────┤
-│  Gate Layer          – Validation & enforcement      │
-├─────────────────────────────────────────────────────┤
-│  Orchestration Layer – Workflow coordination         │
-├─────────────────────────────────────────────────────┤
-│  Infrastructure Layer – IaC & environment design     │
-├─────────────────────────────────────────────────────┤
-│  Lifecycle Layer     – Device & asset management     │
-├─────────────────────────────────────────────────────┤
-│         Audit Logs & Compliance Evidence             │
-└─────────────────────────────────────────────────────┘
-```
-
-Each layer is independently deployable but orchestrated as a unified system.
-
----
-
-## 📦 Core Repositories
-
-| Repository | Purpose | Status |
-|-----------|---------|--------|
-| **infrastructure-change-quality-gate** | Policy validation engine & approval gates | Core |
-| **AI-ITSM-Compliance-Auto** | Intelligent workflow orchestration | Core |
-| **HAaaS** | IoT lifecycle management platform | Core |
-| **governance-templates** | Reusable policy-as-code templates | Reference |
-| **iso27001-mapping-examples** | Compliance requirement mappings | Reference |
-
-Each repository is modular but designed for orchestrated integration.
-
----
-
-## 🚀 Quick Start
-
-### For Infrastructure Teams
-```bash
-# 1. Clone the policy engine
-git clone https://github.com/JonSil89/infrastructure-change-quality-gate
-
-# 2. Integrate into your CI/CD pipeline
-# See: /docs/pipeline-integration.md
-
-# 3. Define your first governance policy
-# See: /examples/policy-templates/
-```
-
-### For DevSecOps Engineers
-```bash
-# 1. Deploy the orchestration layer
-docker-compose up -f infra/docker-compose.yml
-
-# 2. Connect your incident management system
-# See: /docs/itsm-integration.md
-
-# 3. Enable AI-assisted compliance mapping
-# See: /docs/compliance-automation-setup.md
-```
-
-### For IoT/Edge Teams
-```bash
-# 1. Initialize device fleet
-cd HAaaS
-./scripts/init-device-registry.sh
-
-# 2. Deploy baseline configurations
-./scripts/deploy-device-baseline.sh
-
-# 3. Monitor lifecycle events
-./dashboards/device-health.json
-```
-
----
-
-## 🎓 Design Principles
-
-| Principle | Implementation |
-|-----------|----------------|
-| **Governance by Design** | Policies embedded in code, not bolted on |
-| **Automation First** | Manual approval chains replaced by policy logic |
-| **Policy-as-Code** | Version-controlled, tested governance definitions |
-| **Observable Decisions** | Every gate decision logged with reasoning |
-| **Auditability Native** | Compliance evidence generated automatically |
-| **Risk-Aware** | Change impact quantified before deployment |
-
----
-
-## 🎯 Target Environments
-
-- ✅ **Enterprise infrastructure** — Large-scale, multi-team deployments
-- ✅ **Regulated sectors** — Financial services, healthcare, government
-- ✅ **Hybrid & multi-cloud** — AWS, Azure, GCP, on-premises
-- ✅ **Edge & IoT ecosystems** — Decentralized yet governed
-- ✅ **DevSecOps pipelines** — CI/CD-native governance
-- ✅ **Compliance-heavy workflows** — ISO 27001, SOC 2, HIPAA
-
----
-
-## 📊 Impact
-
-| Metric | Before | After |
-|--------|--------|-------|
-| **Policy enforcement** | Manual review | 100% automated |
-| **Compliance gap discovery** | Quarterly audit | Real-time |
-| **Change approval time** | 2-3 days | <5 minutes |
-| **Audit evidence** | Manual collection | Auto-generated |
-| **Risk visibility** | Post-deployment | Pre-deployment |
-
----
-
-## 🛠️ Contributing
-
-Gatehouse Infrastructure is built by teams that believe **governance shouldn't slow innovation**.
-
-We welcome contributions in:
-- 🔐 Policy engine improvements
-- 🤖 AI/ML-assisted compliance logic
-- 🏠 IoT device lifecycle management
-- 📚 Compliance mapping templates
-- 🧪 Test coverage & validation scenarios
-
-**See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.**
-
----
-
-## 📚 Documentation
-
-- **[Architecture Overview](./docs/architecture.md)** — Deep dive into the platform design
-- **[Policy Language Reference](./docs/policy-language.md)** — How to write governance rules
-- **[API Reference](./docs/api-reference.md)** — Integration endpoints
-- **[Compliance Mappings](./docs/compliance/)** — ISO 27001, SOC 2, HIPAA examples
-- **[Troubleshooting Guide](./docs/troubleshooting.md)** — Common issues & solutions
-
----
-
-## 💬 Get In Touch
-
-- 📖 **Questions?** [GitHub Discussions](../../discussions)
-- 🐛 **Found a bug?** [Open an issue](../../issues)
-- 💡 **Have an idea?** [Start a discussion](../../discussions)
-- 🤝 **Want to collaborate?** [See CONTRIBUTING.md](./CONTRIBUTING.md)
-
----
-
-## 📜 License
-
-Gatehouse Infrastructure is licensed under the [MIT License](./LICENSE).
-
----
-
-**Gatehouse Infrastructure: Where governance and automation converge.**
-
-*Built for enterprises that demand auditable, policy-driven infrastructure change.*
-*Gatehouse Infrastructure is an evolving governance-first infrastructure platform currently under active development. Core engines are being implemented incrementally.*
+For the current engineering portfolio and project context, use the repositories linked above.
